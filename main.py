@@ -208,8 +208,11 @@ def go_to_save_otsek():
 
 
 def end_game():
-    custom_print("Спасибо за игру")
-    time.sleep(60)
+    custom_print("Спасибо за игру. Автоматически закроется через 60 секунд")
+    time.sleep(50)
+    custom_print("Через 10 секунд")
+    time.sleep(10)
+    custom_print("До свидания")
     quit()
 
 instructions()
